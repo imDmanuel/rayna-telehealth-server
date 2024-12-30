@@ -1,0 +1,4 @@
+export enum OtpFor {
+  SIGNUP = 'SIGNUP',
+  FORGOT_PASSWORD = 'FORGOT_PASSWORD',
+}

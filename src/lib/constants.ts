@@ -1,0 +1,10 @@
+export const JWT_SECRET = 'JWT_SECRET';
+export const GOOGLE_CLIENT_ID = 'GOOGLE_CLIENT_ID';
+export const GOOGLE_CLIENT_SECRET = 'GOOGLE_CLIENT_SECRET';
+export const JWT_TTL = 'JWT_TTL';
+export const FRONTEND_URL = 'FRONTEND_URL';
+export const EMAIL_USERNAME = 'EMAIL_USERNAME';
+export const EMAIL_PASSWORD = 'EMAIL_PASSWORD';
+export const REDIS_HOST = 'REDIS_HOST';
+export const REDIS_PORT = 'REDIS_PORT';
+export const REDIS_PASSWORD = 'REDIS_PASSWORD';
