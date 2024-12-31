@@ -25,7 +25,8 @@ async function bootstrap() {
     credentials: true,
   });
   app.use(cookieParser());
-  await app.listen(process.env.PORT ?? 3000);
-  console.log(`Server listening on port ${process.env.PORT}`);
+  const port = process.env.PORT ?? 3000;
+  await app.listen(port ?? 3000);
+  console.log(`Server listening on port ${port}`);
 }
 bootstrap();
