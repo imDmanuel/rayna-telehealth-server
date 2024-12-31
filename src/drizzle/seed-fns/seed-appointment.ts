@@ -11,7 +11,7 @@ export const seedAppointments = async (
   usersAuth: Awaited<ReturnType<typeof seedUserAuth>>,
 ) => {
   // Seed appointments
-  const appointmentsData = Array.from({ length: 400 }).map(() => {
+  const appointmentsData = Array.from({ length: 600 }).map(() => {
     return {
       id: crypto.randomUUID(),
       date: faker.date.anytime(),

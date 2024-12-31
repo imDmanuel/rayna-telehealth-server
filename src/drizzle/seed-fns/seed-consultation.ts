@@ -8,7 +8,7 @@ export const seedConsultation = async (
   doctors: Awaited<ReturnType<typeof seedDoctors>>,
   usersAuth: Awaited<ReturnType<typeof seedUserAuth>>,
 ) => {
-  const consultationsData = Array.from({ length: 200 }).map(() => {
+  const consultationsData = Array.from({ length: 400 }).map(() => {
     return {
       id: crypto.randomUUID(),
       date: faker.date.anytime(),

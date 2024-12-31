@@ -12,7 +12,7 @@ export const seedConversations = async (
   // usersAuth: Awaited<ReturnType<typeof seedUserAuth>>,
 ) => {
   // Seed appointments
-  const conversationsData = Array.from({ length: 1000 }).map(() => {
+  const conversationsData = Array.from({ length: 1500 }).map(() => {
     return {
       id: crypto.randomUUID(),
       date: faker.date.anytime(),
