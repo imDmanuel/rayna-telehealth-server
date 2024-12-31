@@ -13,7 +13,7 @@ COPY . .
 # Build the application
 RUN yarn build
 
-# Expose port 3000 for the backend application
+# Expose port 5000 for the backend application
 EXPOSE 5000
 
 # Start the application
